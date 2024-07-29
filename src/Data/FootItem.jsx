@@ -1,0 +1,18 @@
+export const Data = [
+    '6ef07bda-b707-48ea-9b14-2594071593d1_Biryani.png',
+    '6ef07bda-b707-48ea-9b14-2594071593d1_Pizzas.png',
+    '8f508de7-e0ac-4ba8-b54d-def9db98959e_Salad-1.png',
+    '8f508de7-e0ac-4ba8-b54d-def9db98959e_burger.png',
+    '8f508de7-e0ac-4ba8-b54d-def9db98959e_Shake.png',
+    '8f508de7-e0ac-4ba8-b54d-def9db98959e_cake.png',
+    '6ef07bda-b707-48ea-9b14-2594071593d1_North%20Indian.png',
+    '6ef07bda-b707-48ea-9b14-2594071593d1_Chinese.png',
+    '6ef07bda-b707-48ea-9b14-2594071593d1_Biryani.png',
+    '6ef07bda-b707-48ea-9b14-2594071593d1_Pizzas.png',
+    '8f508de7-e0ac-4ba8-b54d-def9db98959e_Salad-1.png',
+    '8f508de7-e0ac-4ba8-b54d-def9db98959e_burger.png',
+    '8f508de7-e0ac-4ba8-b54d-def9db98959e_Shake.png',
+    '8f508de7-e0ac-4ba8-b54d-def9db98959e_cake.png',
+    '6ef07bda-b707-48ea-9b14-2594071593d1_North%20Indian.png',
+    '6ef07bda-b707-48ea-9b14-2594071593d1_Chinese.png',
+  ];
