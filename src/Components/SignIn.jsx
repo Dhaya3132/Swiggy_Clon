@@ -1,7 +1,13 @@
-import React from 'react'
+import React from 'react';
+import { useParams } from 'react-router';
+
 
 export const SignIn = () => {
+  const { userId } = useParams();
+
   return (
-    <div>SignIn</div>
+    <div>SignIn
+      <p>{userId}</p>
+    </div>
   )
 }
