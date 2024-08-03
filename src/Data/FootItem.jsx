@@ -57,7 +57,8 @@ export const FoodMenu = [
     'id': 6,
     'img':'emokngtugausm3e8wcam',
     'title': 'UBQ by Barbeque',
-    'Rating' : '4.6'
+    'Rating' : '4.6',
+    'location' : 'Coimbatore'
   },
   {
     'id': 7,
