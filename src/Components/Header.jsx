@@ -10,8 +10,8 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
-        <div className="p-5 drop-shadow-md border border-solid border-b-2 border-slate-100">
-            <nav className='flex justify-between'>
+        <div className="p-5 drop-shadow-md border border-solid border-b-2 border-slate-100 sticky top-0 bg-white">
+            <nav className='flex justify-between sticky'>
                 <img src={swiggy} alt="logo" className='w-20 h-14' />
                 <ul className='flex justify-end items-center gap-9 text-md font-normal text-slate-900'>
                     <Link to="/corporate">

@@ -88,4 +88,144 @@ export const FoodMenu = [
     'Rating' : '4.7',
     'location' : 'Coimbatore'
   },
+  {
+    'id': 11,
+    'img':'RX_THUMBNAIL/IMAGES/VENDOR/2024/6/4/518837c9-252e-47e6-90d3-055f0ea2c79d_587663.JPG',
+    'title': 'Chinese Work',
+    'Rating' : '4.4',
+    'location' : 'Coimbatore'
+  },
+  {
+    'id': 12,
+    'img':'e0839ff574213e6f35b3899ebf1fc597',
+    'title': 'SubWay',
+    'Rating' : '4.2',
+    'location' : 'Coimbatore'
+  },
+  {
+    'id': 13,
+    'img':'5116a385bac0548e06c33c08350fbf11',
+    'title': 'The Belgium Cafe',
+    'Rating' : '4.2',
+    'location' : 'Coimbatore'
+  },
+  {
+    'id': 14,
+    'img':'RX_THUMBNAIL/IMAGES/VENDOR/2024/6/11/55d0daa1-ad2e-4893-be06-4709c5c68d49_50456.JPG',
+    'title': 'Burger King',
+    'Rating' : '4.6',
+    'location' : 'Coimbatore'
+  },
+  {
+    'id': 15,
+    'img':'xrnsnkxooarkoy7awmkw',
+    'title': 'HMR Brriyani',
+    'Rating' : '4.4',
+    'location' : 'Coimbatore'
+  },
+  {
+    'id': 16,
+    'img':'emokngtugausm3e8wcam',
+    'title': 'UBQ by Barbeque',
+    'Rating' : '4.6',
+    'location' : 'Coimbatore'
+  },
+  {
+    'id': 17,
+    'img':'a8e7ce3136780a9d0e7abba21276efb9',
+    'title': 'Ambur Briyani',
+    'Rating' : '4.8',
+    'location' : 'Coimbatore'
+  },
+  {
+    'id': 19,
+    'img':'kohng6fk7log2eslepxc',
+    'title': 'Hotel Madurai',
+    'Rating' : '4.7',
+    'location' : 'Coimbatore'
+  },
+  {
+    'id': 18,
+    'img':'zjlp8z2tdg6dgify5fhd',
+    'title': 'Dindugal Briyani',
+    'Rating' : '4.5',
+    'location' : 'Coimbatore'
+  },
+  {
+    'id': 20,
+    'img':'RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/1b92e544-fce7-45ac-941a-50092e3037a5_50793.JPG',
+    'title': 'KFC Chicken',
+    'Rating' : '4.7',
+    'location' : 'Coimbatore'
+  },
+  {
+    'id': 21,
+    'img':'RX_THUMBNAIL/IMAGES/VENDOR/2024/6/4/518837c9-252e-47e6-90d3-055f0ea2c79d_587663.JPG',
+    'title': 'Chinese Work',
+    'Rating' : '4.4',
+    'location' : 'Coimbatore'
+  },
+  {
+    'id': 22,
+    'img':'e0839ff574213e6f35b3899ebf1fc597',
+    'title': 'SubWay',
+    'Rating' : '4.2',
+    'location' : 'Coimbatore'
+  },
+  {
+    'id': 23,
+    'img':'5116a385bac0548e06c33c08350fbf11',
+    'title': 'The Belgium Cafe',
+    'Rating' : '4.2',
+    'location' : 'Coimbatore'
+  },
+  {
+    'id': 24,
+    'img':'RX_THUMBNAIL/IMAGES/VENDOR/2024/6/11/55d0daa1-ad2e-4893-be06-4709c5c68d49_50456.JPG',
+    'title': 'Burger King',
+    'Rating' : '4.6',
+    'location' : 'Coimbatore'
+  },
+  {
+    'id': 25,
+    'img':'xrnsnkxooarkoy7awmkw',
+    'title': 'HMR Brriyani',
+    'Rating' : '4.4',
+    'location' : 'Coimbatore'
+  },
+  {
+    'id': 26,
+    'img':'emokngtugausm3e8wcam',
+    'title': 'UBQ by Barbeque',
+    'Rating' : '4.6',
+    'location' : 'Coimbatore'
+  },
+  {
+    'id': 27,
+    'img':'a8e7ce3136780a9d0e7abba21276efb9',
+    'title': 'Ambur Briyani',
+    'Rating' : '4.8',
+    'location' : 'Coimbatore'
+  },
+  {
+    'id': 29,
+    'img':'kohng6fk7log2eslepxc',
+    'title': 'Hotel Madurai',
+    'Rating' : '4.7',
+    'location' : 'Coimbatore'
+  },
+  {
+    'id': 28,
+    'img':'zjlp8z2tdg6dgify5fhd',
+    'title': 'Dindugal Briyani',
+    'Rating' : '4.5',
+    'location' : 'Coimbatore'
+  },
+  {
+    'id': 30,
+    'img':'RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/1b92e544-fce7-45ac-941a-50092e3037a5_50793.JPG',
+    'title': 'KFC Chicken',
+    'Rating' : '4.7',
+    'location' : 'Coimbatore'
+  },
 ]
