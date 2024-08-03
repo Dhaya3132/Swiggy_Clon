@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { Search } from "./Search";
 import { useState } from "react";
+import Filter from "./Filter";
 
 function Food_Item() {
     const [searchText, setSearchText] = useState('');
@@ -13,14 +14,15 @@ function Food_Item() {
     const FilterFood = FoodMenu.filter((item)=> (
         item.title.toLowerCase().includes(searchText.toLowerCase())
     ))
-    
+
     return (
         <div>
             <Search productSearch={onSearchtext} />
+            <Filter />
             <div id="products" className="mt-10 flex flex-wrap justify-center items-center gap-9">
                 {FilterFood.map((item) => (
                     <div id="foot_item" key={item.id}>
-                        <img src={`https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/${item.img}`} alt="FoodImage" className="w-72 h-60 rounded-3xl object-cover" />
+                        <img src={`https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/${item.img}`} alt="FoodImage" className="w-72 h-48 rounded-3xl object-cover" />
                         <h2 className="font-bold text-xl m-2">{item.title}</h2>
                         <div className="flex items-center gap-1">
                             <FontAwesomeIcon icon={faStar} className="bg-orange-50 rounded-full p-1" style={{ color: "#FFD43B", }} />
