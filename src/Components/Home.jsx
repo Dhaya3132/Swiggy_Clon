@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Body from './Banner';
 import FoodScroll from './FoodScroll';
+import Menu from './Menu';
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
         <Header />
         <Body />
         <FoodScroll />
+        <Menu />
     </div>
   )
 }
