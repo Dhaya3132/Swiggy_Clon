@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import {Data} from '../Data/FootItem';
+import { Data } from '../Data/FootItem';
 
 const FoodScroll = () => {
 
@@ -17,10 +17,10 @@ const FoodScroll = () => {
   }
 
   return (
-    <div className='w-9/12 mx-auto mt-5 p-5 border-solid border-b-4 border-slate-200' >
+    <div className='w-9/12 mx-auto mt-5 md:p-5 p-1 border-solid border-b-4 border-slate-200' >
 
       <div className='flex justify-between items-center'>
-        <h2 className='text-3xl font-bold'>What's on your mind?</h2>
+        <h2 className='md:text-3xl text-2xl font-bold'>What's on your mind?</h2>
         <div className='flex gap-3'>
           <FontAwesomeIcon icon={faArrowLeft} className='m-1 border-2 border-slate-200 p-2 rounded-full' onClick={handleLeft} />
           <FontAwesomeIcon icon={faArrowRight} className='m-1 border-2 border-slate-200 p-2 rounded-full' onClick={handleRight} />

@@ -13,12 +13,11 @@ module.exports = {
         'Banner': "url('./assets/Banner.jpg')",
       },
       screens: {
-        'Laptop-L': {'max': '1282'},
-        'Laptop-M': { 'max': '1024px' },
-        'Tabelt': { 'max': '769px' },
-        'Mobile-L': { 'max': '426px' },
-        'Mobile-M': { 'max': '376px' },
-        'Mobile-S': { 'max': '321px' },
+        'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
       }
     },
     plugins: [

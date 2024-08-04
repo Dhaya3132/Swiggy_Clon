@@ -11,8 +11,8 @@ export const Search = ({productSearch}) => {
   }
   return (
     <div className='flex gap-4 mt-5 justify-center items-center'>
-        <input type="text" placeholder='Hotels near by you...'  className='p-4 w-2/4  rounded-full border-solid border-2 border-slate-300 outline-none shadow-md' onChange={handleInput}/>
-        <button className='px-7 py-4 text-lg bg-orange-600 text-white font-semibold rounded-full shadow-2xl cursor-pointer' onClick={handleSearch}>Search</button>
+        <input type="text" placeholder='Hotels near by you...'  className='md:p-4 p-3 md:w-2/4 w-full  rounded-full border-solid border-2 border-slate-300 outline-none shadow-md' onChange={handleInput}/>
+        <button className='md:px-7 md:py-4 md:text-lg px-4 py-3 bg-orange-600 text-white font-semibold rounded-full shadow-2xl cursor-pointer' onClick={handleSearch}>Search</button>
     </div>
   )
 }

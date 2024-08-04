@@ -21,7 +21,7 @@ function Food_Item() {
         <div>
             <Search productSearch={onSearchtext} />
             <Filter filterrating={onFiltering} />
-            <div id="products" className="mt-10 flex flex-wrap justify-center items-center gap-9">
+            <div id="products" className="mt-10 flex flex-wrap justify-center items-center gap-5">
                 {filterdFood.map((item) => (
                     <FoodCard item={item} key={item.id}/>
                 ))}
