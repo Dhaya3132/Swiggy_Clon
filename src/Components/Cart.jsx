@@ -12,7 +12,7 @@ export const Cart = () => {
     setTotal(cart.reduce((acc,cum) => acc + parseInt(cum.Price),0))
   },[cart])
   return (
-    <div className='mx-auto'>
+    <div className='mx-auto h-screen'>
       <Header />
       <h2 className='font-semibold font-Poppins text-2xl p-10'>Cart Items</h2>
       <div className='flex justify-center items-center gap-10 flex-wrap mx-auto p-6'>

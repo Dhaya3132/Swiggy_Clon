@@ -8,13 +8,16 @@ import { SignIn } from './Components/SignIn';
 import { Cart } from './Components/Cart';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { createContext, useState } from 'react';
+import { useSelector } from 'react-redux';
+
 
 export const cartContext = createContext()
 
 function App() {
   const [cart, setCart] = useState([]);
+  const theme = useSelector(state => state.ToggleTheme)
   return (
-    <div className='font-poppins'>
+    <div className={`font-poppins ${theme === 'light' ? 'bg-white text-black' : 'bg-black text-white'}`}>
       <cartContext.Provider value={{cart,setCart}}>
         <BrowserRouter>
           <Routes>
